@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.welcome-container, .main-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+#menu-icon{
+    display: none;
+}
+
+#toggleButton{
+    display: none;
+}
+#toggleCheckbox{
+    display: none;
+}
+@media (max-width: 1080px){
+    .nav{
+        width: 95%;
+        transition: 0.12s;
+
+    }
+    .text_welcome{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .photo{
+        padding: 10%;
+    }
+}
+@media (max-width: 910px){
+    .mail{
+        display: none;
+      }
+    #toggleCheckbox{
+        display: block;
+    }
+    #toggleButton{
+        display: block;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .nav{
+        margin-top: 12px;
+        justify-content: space-between;
+    }
+    
+    .menu {
+        visibility: hidden; 
+        position: absolute;
+        top: 13%;
+        right: 2%;
+        width: 270px;
+        height: 65vh;
+        background-color: #f7f7f7;
+        display: grid;
+        border-radius: 12px;
+        box-shadow: 0 1px 50px rgb(179, 179, 179);
+        z-index: 1000;
+        grid-template-rows: auto; 
+        padding: 20px;
+        list-style-type: none; 
+        transition: visibility 0.3s; 
+    }
+    .menu {
+        visibility: hidden;
+        opacity: 0; 
+        transform: scale(0.8); 
+        transition: visibility 0.3s, opacity 0.3s, transform 0.3s; 
+        
+    }
+    
+    .menu.visible {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    
+    #toggleCheckbox {
+        display: none;
+    }
+    
+    #toggleButton {
+        width: 50px;
+        height: 40px;
+        background-image: url('list-ul-alt-svgrepo-com.svg'); 
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: background-image 0.3s;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    
+    #toggleCheckbox:checked + #toggleButton {
+        background-image: url('close-svgrepo-com.svg'); 
+    }
+    
+}

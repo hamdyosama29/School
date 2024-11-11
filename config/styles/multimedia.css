@@ -1,0 +1,690 @@
+.ibm-plex-sans-arabic-thin {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-extralight {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-light {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-regular {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-medium {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-semibold {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-bold {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  *{
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      font-family: "IBM Plex Sans Arabic", sans-serif;
+  }
+  header{
+      padding: 0px;
+      width: 80%;
+  }
+  .mail{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      padding: 0px;
+      border-bottom: 1px solid #d4d4d4;
+      height: 30px;
+  }
+  .tawos{
+      font-size: 11px;
+      width: 50px;
+  }
+  .im{
+      width: 12px;
+      margin-left: 12px;
+  }
+  .ima{
+      width: 12px;
+      margin-left: 12px;
+      margin-top: 4px;
+  }
+  .mail h6{
+      font-weight: lighter;
+      padding: 0px;
+      font-size: 10px;
+      margin-left: 7px;
+  }
+  .imr{
+      width: 12px;
+      margin-left: 5px;
+      margin-top: 4px;
+  }
+  .tawos{
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+      width: 100px;
+      padding: 8px;
+  }
+  
+  
+  
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    
+    nav {
+      width: 85%;
+      padding: 0px;
+    }
+    
+    a {
+      cursor: pointer;
+      font-size: 15px;
+    }
+    
+    .menu {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      height: 70px;
+    }
+    
+    .menu li {
+      display: inline-block;
+      width: 100px;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .menu > li:hover > a {
+      color: red;
+    }
+    
+    .menu > li:hover > a::before {
+      visibility: visible;
+      scale: 1 1;
+    }
+    
+  
+  
+    .menu > li:hover .submenu a {
+      opacity: 1;
+    }
+    
+    .menu > li .submenu a:hover {
+      background: rgb(0 0 0 / 20%);
+    }
+    .egy{
+      display: flex;
+    }
+    .egy img{
+      margin-left: 8px;
+    }
+    .menu > li a {
+      color: #050047;
+      display: flex;
+      font-weight: lighter;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      position: relative;
+      height: 100%;
+      font-size: 13px;
+      font-weight: bold;
+      width: 100px;
+    }
+    
+    .menu > li > a::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 8px;
+      bottom: 3px;
+      left: 0px;
+      background-color: red;
+      transition: all 0.2s ease-in-out;
+      scale: 0 0;
+      visibility: hidden;
+    }
+  .nav{
+      display: flex;
+      align-items: center;
+  }
+  .ka{
+    width: 150px;
+    background-color: transparent;
+    color: rgb(107, 107, 107);
+    border-radius: 50px;
+    border: 1px rgb(107, 107, 107) solid;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding: 2px;
+    height: 25px;
+    text-decoration: none;
+}
+.ka:hover{
+    color: rgb(46, 46, 46);
+    border: 1px rgb(46, 46, 46) solid;
+    transition: 0.20s;
+
+}
+.phot{
+    width: 80%;
+}
+.buttons input{
+    height: 50px;
+    width: 200px;
+    border: 0;
+    background-color: red;
+    border-radius: 8px 8px 0 0;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.buttons input:hover{
+    background-color: white;
+    color: black;
+}
+.fol{
+    width: 80%;
+}
+.show{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image-container:hover .ham {
+    opacity: 1;
+    visibility: visible;
+}
+
+.image-container:hover .overlay {
+    opacity: 0;
+    visibility: hidden;
+}
+.image-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    cursor: pointer;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    opacity: 1;
+    visibility: visible;
+}
+.ham, .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 24px;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+
+.image-container img {
+    display: block;
+    width: 100%; 
+    height: 100%; 
+
+}
+
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; 
+    color: white;
+    display: flex;
+    align-items: end;
+    font-size: 24px;
+}
+.ham{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-color: transparent; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    display: block;
+    margin-top: 15%;
+}
+
+.ham {
+    background-color: transparent; 
+    color: white; 
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.image-container:hover .ham {
+    opacity: 1;
+    visibility: visible;
+}
+.button a:hover{
+    background-color: rgb(255, 57, 57);
+    transition: 0.23s;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    height: 32px;
+    width: 32px;
+    background-color: #00000018;
+    color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+    cursor: pointer;
+}
+h4:hover{
+    background-color: red;
+    color: white;
+    transition: 0.50px;
+}
+.ri{
+    border-top-left-radius: 7px; 
+    border-bottom-left-radius: 7px; 
+    background-color: #050047;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6px;
+    display: flex;
+    height: 20px;
+    width: 25px;
+    margin-left: 12px;
+}
+.lif:hover{
+    transition: 0.23s;
+    background-color: rgb(255, 54, 54);
+}
+.ri:hover{
+    transition: 0.23s;
+    background-color: rgb(255, 54, 54);
+}
+.arm{
+    width: 100%;
+    background-color: #000f2e;
+}
+.ary{
+    height: 30vh;
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.proton{
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+
+}
+#buttonr{
+    height: 100%;
+    width: 100px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    border: 0;
+    background-color: #ff2d2d;
+    border-radius: 5px 0 0 5px;
+    color: white;
+}
+#email{
+    text-align: right;
+    border: 0;
+    font-size: 20px;
+    margin-left: 12px;
+    padding-right: 12px;
+}
+.ary p{
+    font-size: 20px;
+    text-align: right;
+}
+.aklo{
+    margin-top: 120px;
+    display: flex;
+}
+.elnhaia{
+    height: 35vh;
+    background-color: #000017;
+    display: flex;
+    justify-content: space-around;
+
+}
+.elnhaia h2{
+    color: white;
+}
+.links a{
+    color: #555;
+}
+.links{
+    text-align: right;
+}
+.links a:hover{
+    color: #ff2d2d;
+    transition: 0.20s;
+}
+.icr{
+    display: flex;
+    margin-top: 20px;
+}
+.phone p{
+    color: #555;
+    margin-right: 12px;
+    font-weight: bold;
+}
+.phone{
+    display: flex;
+}
+.agh img{
+    width: 30px;
+    margin-left: 12px;
+}
+.asc{
+    height: 100px;
+    background-color: #000017;
+}
+.asc p{
+    color: #555;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+.buttons input:hover{
+    background-color: white;
+    color: black;
+    transition: 0.50s;
+}
+#art{
+    color: red;
+    display: flex;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    height: 100%;
+    width: 100px;
+    font-weight: bold;
+  }
+  #menu-icon{
+    display: none;
+}
+
+#toggleButton{
+    display: none;
+}
+#toggleCheckbox{
+    display: none;
+}
+
+.tab-button.active {
+  background-color: white;
+  color: black;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: flex;
+}
+@media (max-width: 1244px){
+  .ary{
+    height: 50vh;
+
+  }
+  .elnhaia{
+    height: 60vh;
+  }
+}
+@media (max-width: 1080px){
+  header{
+    width: 100%;
+  }
+  .aklo{
+    display: grid;
+  }
+  #email{
+    text-align: right;
+    border: 0;
+    font-size: 20px;
+    margin-left: 12px;
+    width: 190px;
+}
+  .nav{
+      width: 95%;
+      transition: 0.12s;
+
+
+  }
+  .koa{
+    width: 100%;
+  }
+  .fol{
+    width: 100%;
+  }
+  .phot{
+    width: 100%;
+  }
+  .ary{
+    display: grid;
+  }
+  .buttons{
+    width: 100%;
+  }
+  
+}
+@media (max-width: 910px){
+  .mail{
+    display: none;
+  }
+  .xcb{
+    width: 89%;
+  }
+  .aml{
+    width: 89%;
+  }
+  #toggleCheckbox{
+      display: block;
+  }
+  #toggleButton{
+      display: block;
+  }
+  #menu-icon{
+      display: block;
+  }
+  .nav{
+      margin-top: 12px;
+      justify-content: space-between;
+  }
+  
+  .menu {
+      visibility: hidden; /* مخفي في البداية */
+      position: absolute;
+      top: 13%;
+      right: 2%;
+      width: 270px;
+      height: 65vh;
+      background-color: #f7f7f7;
+      display: grid;
+      border-radius: 12px;
+      box-shadow: 0 1px 50px rgb(179, 179, 179);
+      z-index: 1000;
+      grid-template-rows: auto; /* تعريف الصفوف */
+      padding: 20px;
+      list-style-type: none; /* إزالة نقاط القائمة */
+      transition: visibility 0.3s; /* إضافة تأثير الانتقال */
+  }
+  .menu {
+      visibility: hidden; /* مخفي في البداية */
+      opacity: 0; /* تعيين الشفافية للتأثير */
+      transform: scale(0.8); /* تعيين حجم أصغر للتأثير */
+      transition: visibility 0.3s, opacity 0.3s, transform 0.3s; /* إضافة تأثيرات الانتقال */
+      /* باقي الخصائص */
+  }
+  
+  .menu.visible {
+      visibility: visible;
+      opacity: 1;
+      transform: scale(1);
+  }
+  
+  
+  #toggleCheckbox {
+      display: none;
+  }
+  
+  #toggleButton {
+      width: 50px;
+      height: 40px;
+      background-image: url('list-ul-alt-svgrepo-com.svg'); /* ضع مسار الصورة الأولى هنا */
+      background-size: cover;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 20px;
+      transition: background-image 0.3s;
+      margin-top: 15px;
+      margin-left: 5px;
+  }
+  
+  #toggleCheckbox:checked + #toggleButton {
+      background-image: url('close-svgrepo-com.svg'); /* ضع مسار الصورة الثانية هنا */
+  }
+  .altra{
+    display: grid;
+    width: 100%;
+    justify-content: end;
+  }
+}
+
+@media (max-width: 824px){
+  .admin div{
+    margin-left: 200px;
+  }
+}
+@media (max-width: 692px){
+  .admin div{
+    margin-left: 0px;
+  }
+  .elnhaia{
+    display: grid;
+    height:140vh;
+  }
+  .nav{
+    width: 98%;
+  }
+  #toggleButton{
+    height: 50px;
+    width: 75px;
+  }
+  .elnhaia{
+    height: 250vh;
+  }
+}
+
+
+@media (max-width: 499px){
+  
+  .add{
+    height: 100vh;
+  }
+}
+
+@media (max-width: 641px){
+  .aklo{
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 486px){
+  #toggleButton{
+    height: 50px;
+    width: 85px;
+  }
+}
+@media (max-width: 438px){
+  #toggleButton{
+    height: 50px;
+    width: 105px;
+  }
+}
+@media (max-width: 375px){
+  .asc{
+  }
+  .elnhaia{
+    height: 180vh;
+  }
+}
+
+@media (max-width: 607px){
+    .buttons input{
+        width: 120px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
