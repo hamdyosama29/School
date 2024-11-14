@@ -123,6 +123,7 @@ body{
     display: inline-block;
     width: 100px;
     transition: all 0.3s ease-in-out;
+    font-weight: bold;
   }
   
   .menu > li:hover > a {
@@ -151,9 +152,9 @@ body{
   }
   
   .menu > li a {
+    font-weight: bold;
     color: #050047;
     display: flex;
-    font-weight: lighter;
     align-items: center;
     justify-content: center;
     text-decoration: none;
