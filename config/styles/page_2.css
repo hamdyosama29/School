@@ -628,7 +628,7 @@ a{
 
 .event-card {
     position: relative;
-    width: 412px;
+    width: 312px;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 8px;
@@ -636,7 +636,7 @@ a{
     text-align: right;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 18px;
-    height: 505px;
+    height: 450px;
 }
 
 .date {
@@ -682,8 +682,8 @@ a{
 .akm {
     display: flex;
     margin-top: 12px;
-    height: 250px;
-    width: 800px;
+    height: 200px;
+    width: 650px;
     justify-content: flex-start;
     box-shadow: 0 0 12px 20px rgba(192, 192, 192, 0.151);
     border-radius: 8px;
